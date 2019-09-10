@@ -1,0 +1,43 @@
+@import '../../../node_modules/@swimlane/ngx-datatable/index.css';
+@import '../../../node_modules/@swimlane/ngx-datatable/themes/material.css';
+@import '../../../node_modules/@swimlane/ngx-datatable/assets/icons.css';
+
+ngx-datatable{
+    width: 100%;
+    font-family: Montserrat-Regular, sans-serif !important;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.ngx-datatable .datatable-body-cell{
+    text-align: center;   
+}
+
+/deep/ .datatable-body-cell-label{
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .desktop-hidden {
+      display: initial;
+    }
+    .mobile-hidden {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    .desktop-hidden {
+      display: none;
+    }
+    .mobile-hidden {
+      display: initial;
+    }
+  }
+
+  .wrap-contact100{
+      width: inherit !important;
+  }
+
+
+
+

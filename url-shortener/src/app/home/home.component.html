@@ -1,0 +1,33 @@
+<div class="bg-contact100">
+    <div class="container-contact100">
+        <div class="wrap-contact100">
+            <div class="contact100-pic js-tilt" data-tilt>
+                <!-- Image credits -->
+                <!-- Free vector art via <a href="https://vecteezy.com">vecteezy.com</a> -->
+                <embed type="image/svg+xml" src="assets/images/link.svg" />
+            </div>
+
+            <form class="contact100-form validate-form">
+                <span [routerLink]="['/statistics']" class="contact100-form-subTitle">
+                    Estadísticas
+                </span>
+                <span class="contact100-form-title">
+                    URL Shortener
+                </span>
+                <div class="wrap-input100 validate-input">
+                    <input name='urlOriginal' placeholder='Ingrese url a convertir' [(ngModel)]="urlOriginal">
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button (click)='convertUrl()' class="contact100-form-btn">
+                        Convertir
+                    </button>
+                </div>
+
+                <div class="wrap-result">
+                    <span *ngIf='shortUrl' class="contact100-form-subTitle"><a [href]="shortUrl">{{shortUrl}}</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

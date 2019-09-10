@@ -1,0 +1,51 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+
+# dependencies
+/server/node_modules
+
+# compiled output
+/url-shortener/dist
+/url-shortener/tmp
+/url-shortener/out-tsc
+# Only exists if Bazel was run
+/url-shortener/bazel-out
+
+# dependencies
+/url-shortener/node_modules
+
+# profiling files
+/url-shortenerchrome-profiler-events*.json
+/url-shortenerspeed-measure-plugin*.json
+
+# IDEs and editors
+/url-shortener.idea
+/url-shortener.project
+/url-shortener.classpath
+/url-shortener.c9/
+*.launch
+/url-shortener.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+/url-shortener.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+/url-shortener.history/*
+
+# misc
+/url-shortener/.sass-cache
+/url-shortener/connect.lock
+/url-shortener/coverage
+/url-shortener/libpeerconnection.log
+/url-shortenernpm-debug.log
+/url-shorteneryarn-error.log
+/url-shortenertestem.log
+/url-shortener/typings
+
+# System Files
+/url-shortener.DS_Store
+/url-shortenerThumbs.db
+
